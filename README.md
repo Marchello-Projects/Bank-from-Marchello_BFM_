@@ -1,4 +1,5 @@
-![Logo](https://github.com/user-attachments/assets/0fc4d580-87b2-45bd-8c85-e92ba6956956)
+![Group 33](https://github.com/user-attachments/assets/edd45805-61b3-44e6-8baf-e76aac532295)
+
 
 I created this project with the purpose of studying objects in  JavaScript. 
 
