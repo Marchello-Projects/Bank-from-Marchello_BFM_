@@ -1,24 +1,26 @@
-![Logo](https://github.com/user-attachments/assets/6d4bec3b-8392-41d1-8e28-68604bbbb3f2)
+![Logo](https://github.com/user-attachments/assets/0fc4d580-87b2-45bd-8c85-e92ba6956956)
 
 I created this project with the purpose of studying objects in  JavaScript. 
 
 ## Registration
 Before you start using online banking, you must register in the system.
-![Welcome screen](https://github.com/user-attachments/assets/db47d209-9912-4b37-b522-6abe9b2c20f2)
+![Welcome screen](https://github.com/user-attachments/assets/a824e82d-c494-451f-a8e7-1534f1cdf268)
+
 
 If you skip some registration fields, you will get an error
-![Error](https://github.com/user-attachments/assets/39e25137-d62d-43b7-90ea-819e0062d519)
+![Error](https://github.com/user-attachments/assets/9f11a3ae-cf34-4eef-97d6-61f4738dc753)
 
 ## Main menu
 There are only four operations in the main menu: Withdraw money, Top up your balance, Check your balance amount and Transaction history.
-![Menu](https://github.com/user-attachments/assets/d7344ee4-081d-4a58-a944-1c6c3c2614d7)
+![Menu](https://github.com/user-attachments/assets/5fac9e4a-5f69-45f6-9d9b-d49924599cb1)
 
 ## Screenshots
-![Withdraw money](https://github.com/user-attachments/assets/6e3c086e-a8ba-4276-a171-db80f65fb555)
-![Top up balance](https://github.com/user-attachments/assets/b3030e49-6dd3-41e8-bc39-ba10a8ab3cca)
-![Check the balance amount](https://github.com/user-attachments/assets/5d938ad7-1e7e-4a08-8f1c-821d4cbcd41b)
-![Transaction history](https://github.com/user-attachments/assets/afc4ec00-e668-4bfc-a750-ff301f427864)
-![Done](https://github.com/user-attachments/assets/8f4f2102-3198-4283-be1d-6d8c0fe7ea6d)
+![Withdraw money](https://github.com/user-attachments/assets/700dd35f-2690-41f8-957a-c2e7f26f6a16)
+![Top up balance](https://github.com/user-attachments/assets/049457bc-29e1-4c5d-8a5b-5d8f74bf6e61)
+![Check the balance amount](https://github.com/user-attachments/assets/5d634f7b-5cc2-490b-a265-7587b89facb6)
+![Transaction history](https://github.com/user-attachments/assets/c435c23b-abfb-4527-8bfb-b0b6083d5b48)
+![Done](https://github.com/user-attachments/assets/e90d86d1-9036-463c-8fec-f85bf9c4db7b)
+
 
 ## Figma link
 https://www.figma.com/design/peM8q3rKvxpdSs6eyYb4eZ/Bank-from-Marchello-(BFM)?node-id=4-67&t=JqQGgB9buPt3gqfe-1
