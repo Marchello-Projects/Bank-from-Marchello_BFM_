@@ -1,1 +1,102 @@
-/*# sourceMappingURL=wms.css.map */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(143deg, rgba(255, 0, 0, 0.2) 0.44%, rgba(250, 255, 0, 0.2) 73.86%), linear-gradient(116deg, #3687FF -4.55%, #D176F1 100%);
+}
+
+.mainContent_mainBlock {
+  width: 465px;
+  height: 537px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.mainContent_mainBlock_logoBlock {
+  margin: 14px 0 0 14px;
+  position: absolute;
+  display: flex;
+  -moz-column-gap: 9px;
+       column-gap: 9px;
+  width: 196px;
+  height: 51px;
+}
+.mainContent_mainBlock_logoBlock_textBlock {
+  width: 137px;
+  height: 51px;
+}
+.mainContent_mainBlock_logoBlock_textBlock_miniTitle {
+  color: #FFF;
+  font-family: "Overpass Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 5px;
+}
+.mainContent_mainBlock_logoBlock_textBlock_titleLogo {
+  color: #FFF;
+  font-family: "Overpass Mono";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.mainContent_mainBlock_centerBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.mainContent_mainBlock_centerBlock_inputForm {
+  width: 377px;
+  height: 176px;
+}
+.mainContent_mainBlock_centerBlock_inputForm_titleText {
+  color: #FFF;
+  text-align: center;
+  font-family: "Overpass Mono";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+}
+.mainContent_mainBlock_centerBlock_inputForm_inputCenter {
+  display: flex;
+  justify-content: center;
+}
+.mainContent_mainBlock_centerBlock_inputForm_inputCenter_input {
+  width: 278px;
+  height: 25px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  font-family: "Overpass Mono";
+  margin-top: 24px;
+}
+.mainContent_mainBlock_centerBlock_inputForm_buttonCenter {
+  display: flex;
+  justify-content: center;
+}
+.mainContent_mainBlock_centerBlock_inputForm_buttonCenter_button {
+  width: 282.5px;
+  height: 31px;
+  border-radius: 2px;
+  background: #ffffff;
+  color: #000000;
+  font-family: "Overpass Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.mainContent_mainBlock_centerBlock_inputForm_buttonCenter_button:hover {
+  background: #12A921;
+  color: #ffffff;
+  transition-duration: 0.6s;
+}/*# sourceMappingURL=wms.css.map */
