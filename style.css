@@ -188,4 +188,483 @@ body {
   background: #12A921;
   color: #ffffff;
   transition-duration: 0.6s;
+}
+.mainContent_mainBlock_centerBlock_balanceBlock {
+  width: 377px;
+  height: 155px;
+}
+.mainContent_mainBlock_centerBlock_balanceBlock_titleText {
+  color: #FFF;
+  text-align: center;
+  font-family: "Overpass Mono";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+}
+.mainContent_mainBlock_centerBlock_balanceBlock_buttonCenter {
+  display: flex;
+  justify-content: center;
+}
+.mainContent_mainBlock_centerBlock_balanceBlock_buttonCenter_button {
+  width: 282.5px;
+  height: 31px;
+  border-radius: 2px;
+  background: #ffffff;
+  color: #000000;
+  font-family: "Overpass Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  margin-top: 35px;
+}
+.mainContent_mainBlock_centerBlock_balanceBlock_buttonCenter_button:hover {
+  background: #12A921;
+  color: #ffffff;
+  transition-duration: 0.6s;
+}
+.mainContent_mainBlock_centerBlock_doneForm {
+  width: 285px;
+  height: 390px;
+}
+.mainContent_mainBlock_centerBlock_doneForm_svgCenter {
+  display: flex;
+  justify-content: center;
+}
+.mainContent_mainBlock_centerBlock_doneForm_titleCenter {
+  display: flex;
+  justify-content: center;
+}
+.mainContent_mainBlock_centerBlock_doneForm_titleCenter_titleText {
+  color: #FFF;
+  font-family: "Overpass Mono";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.mainContent_mainBlock_centerBlock_doneForm_miniCenter {
+  display: flex;
+  justify-content: center;
+}
+.mainContent_mainBlock_centerBlock_doneForm_miniCenter_miniText {
+  color: #FFF;
+  text-align: center;
+  font-family: "Overpass Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.mainContent_mainBlock_centerBlock_doneForm_btnTryAgain {
+  width: 282.5px;
+  height: 31px;
+  border-radius: 2px;
+  background: #ffffff;
+  color: #000000;
+  font-family: "Overpass Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.mainContent_mainBlock_centerBlock_doneForm_btnTryAgain:hover {
+  background: #12A921;
+  color: #ffffff;
+  transition-duration: 0.6s;
+}
+.mainContent_mainBlock_centerBlock_errorForm {
+  width: 285px;
+  height: 305px;
+}
+.mainContent_mainBlock_centerBlock_errorForm_svgCenter {
+  display: flex;
+  justify-content: center;
+}
+.mainContent_mainBlock_centerBlock_errorForm_titleCenter {
+  display: flex;
+  justify-content: center;
+}
+.mainContent_mainBlock_centerBlock_errorForm_titleCenter_titleText {
+  color: #FFF;
+  font-family: "Overpass Mono";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 21px;
+}
+.mainContent_mainBlock_centerBlock_errorForm_miniCenter {
+  display: flex;
+  justify-content: center;
+}
+.mainContent_mainBlock_centerBlock_errorForm_miniCenter_miniText {
+  color: #FFF;
+  text-align: center;
+  font-family: "Overpass Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.mainContent_mainBlock_centerBlock_errorForm_btnTryAgain {
+  width: 282.5px;
+  height: 31px;
+  border-radius: 2px;
+  background: #ffffff;
+  color: #000000;
+  font-family: "Overpass Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.mainContent_mainBlock_centerBlock_errorForm_btnTryAgain:hover {
+  background: #12A921;
+  color: #ffffff;
+  transition-duration: 0.6s;
+}
+.mainContent_mainBlock_centerBlock_menuBlock {
+  width: 398px;
+  height: 313px;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerText {
+  display: flex;
+  justify-content: center;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerText_titleText {
+  color: #FFF;
+  font-family: "Overpass Mono";
+  font-size: 49.5px;
+  font-style: normal;
+  font-weight: 400;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerText2 {
+  display: flex;
+  justify-content: center;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerText2_miniText {
+  color: #FFF;
+  font-family: "Overpass Mono";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  -moz-column-gap: 57px;
+       column-gap: 57px;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock_button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 89px;
+  border-radius: 5px;
+  background: #FFF;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  font-family: "Overpass Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  transition-duration: 0.6s;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock_button1 svg {
+  transition-duration: 0.6s;
+  fill: #000;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock_button1:hover {
+  transition-duration: 0.6s;
+  background: #12A921;
+  color: #FFF;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock_button1:hover svg {
+  transition-duration: 0.6s;
+  fill: #ffffff;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock_button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 89px;
+  border-radius: 5px;
+  background: #FFF;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  font-family: "Overpass Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  transition-duration: 0.6s;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock_button2 svg {
+  transition-duration: 0.6s;
+  fill: #000;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock_button2:hover {
+  transition-duration: 0.6s;
+  background: #12A921;
+  color: #FFF;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock_button2:hover svg {
+  transition-duration: 0.6s;
+  fill: #ffffff;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  -moz-column-gap: 57px;
+       column-gap: 57px;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock2_button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 89px;
+  border-radius: 5px;
+  background: #FFF;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  font-family: "Overpass Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  transition-duration: 0.6s;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock2_button1 svg {
+  transition-duration: 0.6s;
+  fill: #000;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock2_button1:hover {
+  transition-duration: 0.6s;
+  background: #12A921;
+  color: #FFF;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock2_button1:hover svg {
+  transition-duration: 0.6s;
+  fill: #ffffff;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock2_button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 89px;
+  border-radius: 5px;
+  background: #FFF;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  font-family: "Overpass Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  transition-duration: 0.6s;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock2_button2 svg {
+  transition-duration: 0.6s;
+  fill: #000;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock2_button2:hover {
+  transition-duration: 0.6s;
+  background: #12A921;
+  color: #FFF;
+}
+.mainContent_mainBlock_centerBlock_menuBlock_centerBlock2_button2:hover svg {
+  transition-duration: 0.6s;
+  fill: #ffffff;
+}
+.mainContent_mainBlock_centerBlock_inputTopUpBalanceForm {
+  width: 377px;
+  height: 205px;
+}
+.mainContent_mainBlock_centerBlock_inputTopUpBalanceForm_titleText {
+  color: #FFF;
+  text-align: center;
+  font-family: "Overpass Mono";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+}
+.mainContent_mainBlock_centerBlock_inputTopUpBalanceForm_inputCenter {
+  display: flex;
+  justify-content: center;
+}
+.mainContent_mainBlock_centerBlock_inputTopUpBalanceForm_inputCenter_input {
+  width: 278px;
+  height: 25px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  font-family: "Overpass Mono";
+  margin-top: 24px;
+}
+.mainContent_mainBlock_centerBlock_inputTopUpBalanceForm_buttonCenter {
+  display: flex;
+  justify-content: center;
+}
+.mainContent_mainBlock_centerBlock_inputTopUpBalanceForm_buttonCenter_button {
+  width: 282.5px;
+  height: 31px;
+  border-radius: 2px;
+  background: #ffffff;
+  color: #000000;
+  font-family: "Overpass Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.mainContent_mainBlock_centerBlock_inputTopUpBalanceForm_buttonCenter_button:hover {
+  background: #12A921;
+  color: #ffffff;
+  transition-duration: 0.6s;
+}
+.mainContent_mainBlock_centerBlock_historyForm {
+  width: 350px;
+  height: 388px;
+}
+.mainContent_mainBlock_centerBlock_historyForm_titleText {
+  color: #FFF;
+  text-align: center;
+  font-family: "Overpass Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+}
+.mainContent_mainBlock_centerBlock_historyForm_blockCenter {
+  display: flex;
+  justify-content: center;
+}
+.mainContent_mainBlock_centerBlock_historyForm_blockCenter_blockHistory {
+  width: 270px;
+  height: 244px;
+  background: #ffffff;
+  border-radius: 2px;
+  margin-top: 15px;
+  overflow-y: auto;
+}
+.mainContent_mainBlock_centerBlock_historyForm_blockCenter_blockHistory_textDown {
+  color: #000;
+  font-family: "Overpass Mono";
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 7px;
+}
+.mainContent_mainBlock_centerBlock_historyForm_blockCenter_blockHistory_textDown_spanRed {
+  color: #F00;
+}
+.mainContent_mainBlock_centerBlock_historyForm_blockCenter_blockHistory_textUp {
+  color: #000;
+  font-family: "Overpass Mono";
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 7px;
+}
+.mainContent_mainBlock_centerBlock_historyForm_blockCenter_blockHistory_textUp_spanRed {
+  color: #12A921;
+}
+.mainContent_mainBlock_centerBlock_historyForm_btnCenter {
+  display: flex;
+  justify-content: center;
+}
+.mainContent_mainBlock_centerBlock_historyForm_btnCenter_btnReturnToMenu {
+  width: 282.5px;
+  height: 31px;
+  border-radius: 2px;
+  background: #ffffff;
+  color: #000000;
+  font-family: "Overpass Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.mainContent_mainBlock_centerBlock_historyForm_btnCenter_btnReturnToMenu:hover {
+  background: #12A921;
+  color: #ffffff;
+  transition-duration: 0.6s;
+}
+.mainContent_mainBlock_centerBlock_inputWithDrawMoneyForm {
+  width: 377px;
+  height: 176px;
+}
+.mainContent_mainBlock_centerBlock_inputWithDrawMoneyForm_titleText {
+  color: #FFF;
+  text-align: center;
+  font-family: "Overpass Mono";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+}
+.mainContent_mainBlock_centerBlock_inputWithDrawMoneyForm_inputCenter {
+  display: flex;
+  justify-content: center;
+}
+.mainContent_mainBlock_centerBlock_inputWithDrawMoneyForm_inputCenter_input {
+  width: 278px;
+  height: 25px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  font-family: "Overpass Mono";
+  margin-top: 24px;
+}
+.mainContent_mainBlock_centerBlock_inputWithDrawMoneyForm_buttonCenter {
+  display: flex;
+  justify-content: center;
+}
+.mainContent_mainBlock_centerBlock_inputWithDrawMoneyForm_buttonCenter_button {
+  width: 282.5px;
+  height: 31px;
+  border-radius: 2px;
+  background: #ffffff;
+  color: #000000;
+  font-family: "Overpass Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  transition-duration: 0.6s;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.mainContent_mainBlock_centerBlock_inputWithDrawMoneyForm_buttonCenter_button:hover {
+  background: #12A921;
+  color: #ffffff;
+  transition-duration: 0.6s;
 }/*# sourceMappingURL=style.css.map */
