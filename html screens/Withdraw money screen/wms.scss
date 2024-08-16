@@ -55,7 +55,7 @@ body {
         &_centerBlock {
             @include FlexElement(center, center);
             height: 100%;
-            &_inputForm {
+            &_inputWithDrawMoneyForm {
                 width: 377px;
                 height: 176px;
                 &_titleText {
