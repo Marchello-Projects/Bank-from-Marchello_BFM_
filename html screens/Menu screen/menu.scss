@@ -1,0 +1,206 @@
+@mixin FlexElement($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin ForBlocks ($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+
+body {
+    @include FlexElement(center, center);
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(143deg, rgba(255, 0, 0, 0.20) 0.44%, rgba(250, 255, 0, 0.20) 73.86%), linear-gradient(116deg, #3687FF -4.55%, #D176F1 100%);
+}
+
+.mainContent {
+    &_mainBlock {
+        width: 465px;
+        height: 537px;      
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.50);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        &_logoBlock {
+            margin: 14px 0 0 14px;
+            position: absolute;
+            display: flex;
+            column-gap: 9px;
+            width: 196px;
+            height: 51px;      
+            &_textBlock {
+                width: 137px;        
+                height: 51px;  
+                &_miniTitle {
+                    color: #FFF;
+                    font-family: "Overpass Mono";
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;     
+                    margin-top: 5px      
+                }
+                &_titleLogo {
+                    color: #FFF;
+                    font-family: "Overpass Mono";
+                    font-size: 25px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+        &_centerBlock {
+            @include FlexElement(center, center);
+            height: 105%;
+            &_menuBlock {
+                width: 398px;
+                height: 313px;
+                &_centerText {
+                    @include ForBlocks(center);
+                    &_titleText {
+                        color: #FFF;
+                        font-family: "Overpass Mono";
+                        font-size: 49.5px;
+                        font-style: normal;
+                        font-weight: 400;                
+                    }
+                }
+                &_centerText2 {
+                    @include ForBlocks(center);
+                    &_miniText {
+                        color: #FFF;
+                        font-family: "Overpass Mono";
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 400;          
+                    }
+                }
+                &_centerBlock {
+                    @include ForBlocks(center);
+                    margin-top: 30px;
+                    column-gap: 57px;
+                    &_button1 {
+                        @include FlexElement(center, center);
+                        width: 168px;
+                        height: 89px;    
+                        border-radius: 5px;
+                        background: #FFF;
+                        border: none;
+                        cursor: pointer;
+                        color: #000;
+                        font-family: "Overpass Mono";
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        transition-duration: 0.6s;
+                        svg {
+                            transition-duration: 0.6s;
+                            fill: #000;
+                        }
+                        &:hover {
+                            transition-duration: 0.6s;
+                            background: #12A921;
+                            color: #FFF;
+                            svg {
+                                transition-duration: 0.6s;
+                                fill: #ffffff;
+                            }
+                        }
+                    }
+                    &_button2 {
+                        @include FlexElement(center, center);
+                        width: 168px;
+                        height: 89px;    
+                        border-radius: 5px;
+                        background: #FFF;
+                        border: none;
+                        cursor: pointer;
+                        color: #000;
+                        font-family: "Overpass Mono";
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        transition-duration: 0.6s;
+                        svg {
+                            transition-duration: 0.6s;
+                            fill: #000;
+                        }
+                        &:hover {
+                            transition-duration: 0.6s;
+                            background: #12A921;
+                            color: #FFF;
+                            svg {
+                                transition-duration: 0.6s;
+                                fill: #ffffff;
+                            }
+                        }
+                    }
+                }
+                &_centerBlock2 {
+                    @include ForBlocks(center);
+                    margin-top: 30px;
+                    column-gap: 57px;
+                    &_button1 {
+                        @include FlexElement(center, center);
+                        width: 168px;
+                        height: 89px;    
+                        border-radius: 5px;
+                        background: #FFF;
+                        border: none;
+                        cursor: pointer;
+                        color: #000;
+                        font-family: "Overpass Mono";
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        transition-duration: 0.6s;
+                        svg {
+                            transition-duration: 0.6s;
+                            fill: #000;
+                        }
+                        &:hover {
+                            transition-duration: 0.6s;
+                            background: #12A921;
+                            color: #FFF;
+                            svg {
+                                transition-duration: 0.6s;
+                                fill: #ffffff;
+                            }
+                        }
+                    }
+                    &_button2 {
+                        @include FlexElement(center, center);
+                        width: 168px;
+                        height: 89px;    
+                        border-radius: 5px;
+                        background: #FFF;
+                        border: none;
+                        cursor: pointer;
+                        color: #000;
+                        font-family: "Overpass Mono";
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        transition-duration: 0.6s;
+                        svg {
+                            transition-duration: 0.6s;
+                            fill: #000;
+                        }
+                        &:hover {
+                            transition-duration: 0.6s;
+                            background: #12A921;
+                            color: #FFF;
+                            svg {
+                                transition-duration: 0.6s;
+                                fill: #ffffff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
