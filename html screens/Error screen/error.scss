@@ -54,10 +54,10 @@ body {
         }
         &_centerBlock {
             @include FlexElement(center, center);
-            height: 105%;
+            height: 100%;
             &_errorForm {
                 width: 285px;
-                height: 382px;
+                height: 305px;
                 &_svgCenter {
                     @include ForBlocks(center);
                 }

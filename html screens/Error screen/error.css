@@ -48,11 +48,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 105%;
+  height: 100%;
 }
 .mainContent_mainBlock_centerBlock_errorForm {
   width: 285px;
-  height: 382px;
+  height: 305px;
 }
 .mainContent_mainBlock_centerBlock_errorForm_svgCenter {
   display: flex;
