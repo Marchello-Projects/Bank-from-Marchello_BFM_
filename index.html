@@ -32,7 +32,7 @@
                     <h1 class="mainContent_mainBlock_logoBlock_textBlock_titleLogo">Marchello</h1>
                 </div>
             </div>
-            <div class="mainContent_mainBlock_centerBlock">
+            <div id="renderBlock" class="mainContent_mainBlock_centerBlock">
                 <div class="mainContent_mainBlock_centerBlock_registForm">
                     <div class="mainContent_mainBlock_centerBlock_registForm_blockCenter">
                         <div class="mainContent_mainBlock_centerBlock_registForm_blockCenter_welcomeBlock">
@@ -44,25 +44,25 @@
                     </div>
                     <div class="mainContent_mainBlock_centerBlock_registForm_inputBlock1">
                         <p class="mainContent_mainBlock_centerBlock_registForm_inputBlock1_titleText">First name and last name:</p>
-                        <input class="mainContent_mainBlock_centerBlock_registForm_inputBlock1_input" type="text">
+                        <input id="inputFirstLastName" class="mainContent_mainBlock_centerBlock_registForm_inputBlock1_input" type="text">
                     </div>
                     <div class="mainContent_mainBlock_centerBlock_registForm_inputBlock2">
                         <p class="mainContent_mainBlock_centerBlock_registForm_inputBlock2_titleText">Email:</p>
-                        <input class="mainContent_mainBlock_centerBlock_registForm_inputBlock2_input" type="text">
+                        <input id="inputEmail" class="mainContent_mainBlock_centerBlock_registForm_inputBlock2_input" type="text">
                     </div>
                     <div class="mainContent_mainBlock_centerBlock_registForm_inputBlock3">
                         <p class="mainContent_mainBlock_centerBlock_registForm_inputBlock3_titleText">Password:</p>
-                        <input class="mainContent_mainBlock_centerBlock_registForm_inputBlock3_input" type="text">
+                        <input id="inputPassword" class="mainContent_mainBlock_centerBlock_registForm_inputBlock3_input" type="text">
                     </div>
                     <div class="mainContent_mainBlock_centerBlock_registForm_inputBlock4">
                         <p class="mainContent_mainBlock_centerBlock_registForm_inputBlock4_titleText">First payment to the card:</p>
-                        <input class="mainContent_mainBlock_centerBlock_registForm_inputBlock4_input" type="text">
+                        <input id="inputPayment" class="mainContent_mainBlock_centerBlock_registForm_inputBlock4_input" type="text">
                     </div>
-                    <button class="mainContent_mainBlock_centerBlock_registForm_btnContinue">Continue</button>
+                    <button id="btnReg" class="mainContent_mainBlock_centerBlock_registForm_btnContinue">Continue</button>
                 </div>
             </div>
         </div>
     </main>
-    <script src="./index.js"></script>
+    <script type="module" src="./index.js"></script>
 </body>
 </html>
