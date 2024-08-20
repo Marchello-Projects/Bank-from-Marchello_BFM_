@@ -34,8 +34,10 @@ btnReg.addEventListener("click", () => {
     }
 })
 
+const transactionHistory = []
+
 const renderMenu = (name, cabinetObj) => {
-    const objWithMethods = {
+    const accountUser = {
         ...cabinetObj,
         withDrawMoney (value) {
             this.payment -= value
@@ -101,7 +103,7 @@ const renderMenu = (name, cabinetObj) => {
     const {btnWithDrawMoney, btnTopUpBalance, btnCheckBalance, btnTransHistory} = allBtnRender
 
     btnWithDrawMoney.addEventListener("click", () => {
-        console.log(objWithMethods)
+        console.log(accountUser)
         renderBlock.innerHTML = ``
         renderBlock.innerHTML = `
             <div class="mainContent_mainBlock_centerBlock_inputWithDrawMoneyForm">
@@ -117,10 +119,10 @@ const renderMenu = (name, cabinetObj) => {
         const btnAccept1 = document.querySelector("#btnAccept1")
         const CheckInput1 = document.querySelector("#CheckInput1")
         btnAccept1.addEventListener("click", () => {
-            if (CheckInput1.value === "") {
+            if (CheckInput1.value === "" || isNaN(CheckInput1.value) || accountUser.payment <= 0) {
                 renderError()
             } else {
-                objWithMethods.withDrawMoney(parseInt(CheckInput1.value))
+                accountUser.withDrawMoney(parseInt(CheckInput1.value))
                 renderBlock.innerHTML = ``
                 renderBlock.innerHTML = `
                     <div class="mainContent_mainBlock_centerBlock_doneForm">
@@ -134,7 +136,7 @@ const renderMenu = (name, cabinetObj) => {
                             <h1 class="mainContent_mainBlock_centerBlock_doneForm_titleCenter_titleText">Done!</h1>
                         </div>
                         <div class="mainContent_mainBlock_centerBlock_doneForm_miniCenter">
-                            <p class="mainContent_mainBlock_centerBlock_doneForm_miniCenter_miniText">Balance on your account: ${objWithMethods.payment}$</p>
+                            <p class="mainContent_mainBlock_centerBlock_doneForm_miniCenter_miniText">Balance on your account: ${accountUser.payment}$</p>
                         </div>
                         <button id="doneBtn1" class="mainContent_mainBlock_centerBlock_doneForm_btnTryAgain">Return to menu</button>
                     </div>
@@ -142,8 +144,8 @@ const renderMenu = (name, cabinetObj) => {
                 const doneBtn1 = document.querySelector("#doneBtn1")
                 doneBtn1.addEventListener("click", () => {
                     console.log(transactionHistory)
-                    console.log(objWithMethods)
-                    renderMenu(name, objWithMethods)
+                    console.log(accountUser)
+                    renderMenu(name, accountUser)
                 })
             }
         })
@@ -165,10 +167,10 @@ const renderMenu = (name, cabinetObj) => {
         const btnAccept2 = document.querySelector("#btnAccept2")
         const CheckInput2 = document.querySelector("#CheckInput2")
         btnAccept2.addEventListener("click", () => {
-            if (CheckInput2.value === "") {
+            if (CheckInput2.value === "" || isNaN(CheckInput2.value)) {
                 renderError()
             } else {
-                objWithMethods.topUpBalance(parseInt(CheckInput2.value))
+                accountUser.topUpBalance(parseInt(CheckInput2.value))
                 renderBlock.innerHTML = ``
                 renderBlock.innerHTML = `
                     <div class="mainContent_mainBlock_centerBlock_doneForm">
@@ -182,7 +184,7 @@ const renderMenu = (name, cabinetObj) => {
                             <h1 class="mainContent_mainBlock_centerBlock_doneForm_titleCenter_titleText">Done!</h1>
                         </div>
                         <div class="mainContent_mainBlock_centerBlock_doneForm_miniCenter">
-                            <p class="mainContent_mainBlock_centerBlock_doneForm_miniCenter_miniText">Balance on your account: ${objWithMethods.payment}$</p>
+                            <p class="mainContent_mainBlock_centerBlock_doneForm_miniCenter_miniText">Balance on your account: ${accountUser.payment}$</p>
                         </div>
                         <button id="doneBtn2" class="mainContent_mainBlock_centerBlock_doneForm_btnTryAgain">Return to menu</button>
                     </div>
@@ -190,8 +192,8 @@ const renderMenu = (name, cabinetObj) => {
                 const doneBtn2 = document.querySelector("#doneBtn2")
                 doneBtn2.addEventListener("click", () => {
                     console.log(transactionHistory)
-                    console.log(objWithMethods)
-                    renderMenu(name, objWithMethods)
+                    console.log(accountUser)
+                    renderMenu(name, accountUser)
                 })
             }
         })
@@ -210,8 +212,47 @@ const renderMenu = (name, cabinetObj) => {
         `
         const btnReturn = document.querySelector("#btnReturn")
         btnReturn.addEventListener("click", () => {
-            console.log(objWithMethods)
-            renderMenu(name, objWithMethods)
+            console.log(accountUser)
+            renderMenu(name, accountUser)
+        })
+    })
+
+    btnTransHistory.addEventListener("click", () => {
+        renderBlock.innerHTML = ``
+        renderBlock.innerHTML = `
+                <div class="mainContent_mainBlock_centerBlock_historyForm">
+                    <h1 class="mainContent_mainBlock_centerBlock_historyForm_titleText">Your transaction history:</h1>
+                    <div class="mainContent_mainBlock_centerBlock_historyForm_blockCenter">
+                        <div id="transactionBlock" class="mainContent_mainBlock_centerBlock_historyForm_blockCenter_blockHistory">
+                        </div>
+                    </div>
+                    <div class="mainContent_mainBlock_centerBlock_historyForm_btnCenter">
+                        <button id="btnReturn" class="mainContent_mainBlock_centerBlock_historyForm_btnCenter_btnReturnToMenu">Return to menu</button>
+                    </div>
+                </div>  
+        `
+
+        // <p class="mainContent_mainBlock_centerBlock_historyForm_blockCenter_blockHistory_textDown">
+        // Withdrawal amount: <span class="mainContent_mainBlock_centerBlock_historyForm_blockCenter_blockHistory_textDown_spanRed">-50$</span>
+        // </p>
+
+        const transactionBlock = document.querySelector("#transactionBlock")
+        transactionBlock.innerHTML = ''
+
+        const btnReturn = document.querySelector("#btnReturn")
+
+        transactionHistory.forEach((transiction) => {
+            const textItem = document.createElement("p")
+            textItem.classList.add("mainContent_mainBlock_centerBlock_historyForm_blockCenter_blockHistory_textDown")
+            textItem.textContent = transiction
+            
+            transactionBlock.appendChild(textItem)
+        })
+
+        btnReturn.addEventListener("click", () => {
+            console.log(transactionHistory)
+            console.log(accountUser)
+            renderMenu(name, accountUser)       
         })
     })
 }
@@ -236,7 +277,7 @@ const renderError = () => {
                         <h1 class="mainContent_mainBlock_centerBlock_errorForm_titleCenter_titleText">Oops!</h1>
                     </div>
                     <div class="mainContent_mainBlock_centerBlock_errorForm_miniCenter">
-                        <p class="mainContent_mainBlock_centerBlock_errorForm_miniCenter_miniText">You wrote empty fields somewhere</p>
+                        <p class="mainContent_mainBlock_centerBlock_errorForm_miniCenter_miniText">Try again</p>
                     </div>
                     <button id="tryAgain" class="mainContent_mainBlock_centerBlock_errorForm_btnTryAgain">Try again</button>
                 </div>
