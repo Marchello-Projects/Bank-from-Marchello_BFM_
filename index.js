@@ -232,10 +232,6 @@ const renderMenu = (name, cabinetObj) => {
                 </div>  
         `
 
-        // <p class="mainContent_mainBlock_centerBlock_historyForm_blockCenter_blockHistory_textDown">
-        // Withdrawal amount: <span class="mainContent_mainBlock_centerBlock_historyForm_blockCenter_blockHistory_textDown_spanRed">-50$</span>
-        // </p>
-
         const transactionBlock = document.querySelector("#transactionBlock")
         transactionBlock.innerHTML = ''
 
