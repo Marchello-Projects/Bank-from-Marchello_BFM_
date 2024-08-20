@@ -8,8 +8,8 @@ Before you start using online banking, you must register in the system.
 ![Welcome screen](https://github.com/user-attachments/assets/a824e82d-c494-451f-a8e7-1534f1cdf268)
 
 
-If you skip some registration fields, you will get an error
-![Error](https://github.com/user-attachments/assets/9f11a3ae-cf34-4eef-97d6-61f4738dc753)
+If you miss some registration fields, write text instead of a number, or go into minus, you will receive an error message
+![Error (1)](https://github.com/user-attachments/assets/7cb91ac6-c438-4d7a-9761-d37d7d4b2ac2)
 
 ## Main menu
 There are only four operations in the main menu: Withdraw money, Top up your balance, Check your balance amount and Transaction history.
@@ -25,3 +25,6 @@ There are only four operations in the main menu: Withdraw money, Top up your bal
 
 ## Figma link
 https://www.figma.com/design/peM8q3rKvxpdSs6eyYb4eZ/Bank-from-Marchello-(BFM)?node-id=4-67&t=JqQGgB9buPt3gqfe-1
+
+## GitHub Pages
+https://marchello-projects.github.io/Bank-from-Marchello_BFM_/
